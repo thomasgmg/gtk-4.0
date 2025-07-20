@@ -1,0 +1,35 @@
+@import 'colors.css';
+
+/* ~/.config/gtk-4.0/gtk.css */
+
+/* tabbar {background-color: #0a0a0aC9} RGB+opacity */
+/* window-theme=ghostty */
+/* gtk-titlebar=true  */
+/* window-decoration=true */
+
+/* used for ghostty */
+tabbar tabbox {
+  margin: 0;
+  padding: 0;
+  min-height: 35px;
+  background-color: #000215;
+  font-family: JetBrainsMono Nerd Font;
+}
+
+tabbar tabbox tab {
+  margin: 0;
+  padding: 0;
+  color: #9ca3af;
+  border-right: 1px solid #c0c0c0;
+  border-bottom: 1px solid #c0c0c0;
+}
+
+tabbar tabbox tab:selected {
+  background-color: #363636;
+  color: #6b8eff;
+}
+
+tabbar tabbox tab label {
+ font-size: 16px;
+}
+/* end of ghostty */
